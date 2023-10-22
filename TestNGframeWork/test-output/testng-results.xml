@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-19T18:14:44 EDT" name="Suite" finished-at="2023-10-19T18:14:56 EDT" duration-ms="12014">
+    <groups>
+      <group name="Smoke">
+        <method signature="Search_FeatureTest.ValidateProducts_meeting_the_search_criteria_IsPresent()[pri:2, instance:TestNG.Search_FeatureTest@538613b3]" name="ValidateProducts_meeting_the_search_criteria_IsPresent" class="TestNG.Search_FeatureTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-10-19T18:14:44 EDT" name="Test" finished-at="2023-10-19T18:14:56 EDT" duration-ms="12014">
+      <class name="TestNG.Search_FeatureTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG.Search_FeatureTest@538613b3]" started-at="2023-10-19T18:14:44 EDT" name="beforeTest" finished-at="2023-10-19T18:14:44 EDT" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String)[pri:0, instance:TestNG.Search_FeatureTest@538613b3]" started-at="2023-10-19T18:14:45 EDT" name="beforeClass" finished-at="2023-10-19T18:14:49 EDT" duration-ms="4463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Validate_Search_button_functional()[pri:1, instance:TestNG.Search_FeatureTest@538613b3]" started-at="2023-10-19T18:14:49 EDT" name="Validate_Search_button_functional" finished-at="2023-10-19T18:14:52 EDT" duration-ms="3171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Search_button_functional -->
+        <test-method signature="ValidateProducts_meeting_the_search_criteria_IsPresent()[pri:2, instance:TestNG.Search_FeatureTest@538613b3]" started-at="2023-10-19T18:14:52 EDT" name="ValidateProducts_meeting_the_search_criteria_IsPresent" finished-at="2023-10-19T18:14:54 EDT" duration-ms="1742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateProducts_meeting_the_search_criteria_IsPresent -->
+        <test-method signature="ValidateInput_withLeading_and_TrailingSpaces()[pri:3, instance:TestNG.Search_FeatureTest@538613b3]" started-at="2023-10-19T18:14:54 EDT" name="ValidateInput_withLeading_and_TrailingSpaces" finished-at="2023-10-19T18:14:54 EDT" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateInput_withLeading_and_TrailingSpaces -->
+        <test-method signature="Validate_SearchInSubcategories_is_clickable()[pri:4, instance:TestNG.Search_FeatureTest@538613b3]" started-at="2023-10-19T18:14:55 EDT" name="Validate_SearchInSubcategories_is_clickable" finished-at="2023-10-19T18:14:55 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_SearchInSubcategories_is_clickable -->
+        <test-method signature="Assert_Sort_option()[pri:5, instance:TestNG.Search_FeatureTest@538613b3]" started-at="2023-10-19T18:14:55 EDT" name="Assert_Sort_option" finished-at="2023-10-19T18:14:55 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assert_Sort_option -->
+        <test-method signature="Validate_feature_returns_Accurate_Relevant_Results()[pri:6, instance:TestNG.Search_FeatureTest@538613b3]" started-at="2023-10-19T18:14:55 EDT" name="Validate_feature_returns_Accurate_Relevant_Results" finished-at="2023-10-19T18:14:55 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_feature_returns_Accurate_Relevant_Results -->
+        <test-method signature="ValidateSearch_with_SearchInProductDescriptions()[pri:7, instance:TestNG.Search_FeatureTest@538613b3]" started-at="2023-10-19T18:14:55 EDT" name="ValidateSearch_with_SearchInProductDescriptions" finished-at="2023-10-19T18:14:55 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSearch_with_SearchInProductDescriptions -->
+        <test-method signature="Validate_Search_without_SearchInProductDescriptions()[pri:8, instance:TestNG.Search_FeatureTest@538613b3]" started-at="2023-10-19T18:14:55 EDT" name="Validate_Search_without_SearchInProductDescriptions" finished-at="2023-10-19T18:14:55 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Search_without_SearchInProductDescriptions -->
+        <test-method signature="Assert_Empty_search_query()[pri:9, instance:TestNG.Search_FeatureTest@538613b3]" started-at="2023-10-19T18:14:55 EDT" name="Assert_Empty_search_query" finished-at="2023-10-19T18:14:55 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Assert_Empty_search_query -->
+        <test-method signature="Validate_Pagination()[pri:10, instance:TestNG.Search_FeatureTest@538613b3]" started-at="2023-10-19T18:14:56 EDT" name="Validate_Pagination" finished-at="2023-10-19T18:14:56 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validate_Pagination -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNG.Search_FeatureTest@538613b3]" started-at="2023-10-19T18:14:56 EDT" name="afterClass" finished-at="2023-10-19T18:14:56 EDT" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.Search_FeatureTest@538613b3]" started-at="2023-10-19T18:14:56 EDT" name="afterTest" finished-at="2023-10-19T18:14:56 EDT" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNG.Search_FeatureTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
