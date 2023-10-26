@@ -19,7 +19,7 @@ public class Search_page extends Common_methods {
 		log.info("wait for Subcategories");
 		javascript_click(subcategories);
 		log.info("clicked on subcategories");
-
+		
 	}
 
 	public Search_page(WebDriver driver) {

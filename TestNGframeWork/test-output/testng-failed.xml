@@ -12,9 +12,12 @@
         <methods>
           <include name="afterTest"/>
           <include name="afterClass"/>
+          <include name="Validate_SearchInSubcategories_is_clickable"/>
           <include name="beforeTest"/>
           <include name="beforeClass"/>
           <include name="ValidateProducts_meeting_the_search_criteria_IsPresent"/>
+          <include name="Validate_Search_button_functional"/>
+          <include name="ValidateInput_withLeading_and_TrailingSpaces"/>
         </methods>
       </class> <!-- TestNG.Search_FeatureTest -->
     </classes>

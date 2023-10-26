@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TestNGframeWork
+Bundle-SymbolicName: TestNGframeWork
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: TestNGframeWork
+Export-Package: Commons,
+ Extent_pack,
+ Listener_Pack,
+ Pages,
+ TestNG,
+ UtilityPackage,
+ com.train.org.TestNGframeWork,
+ reader

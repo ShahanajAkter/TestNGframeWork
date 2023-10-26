@@ -10,16 +10,18 @@ import Commons.Common_methods;
 
 public class HomePage extends Common_methods {
 	@FindBy(xpath="//input[@class='form-control input-lg']")WebElement searchfield;
-	@FindBy(xpath = "//button[@class='btn btn-default btn-lg']")WebElement searchbtn;
+	@FindBy(xpath = "//button[contains(@class,'btn btn-default bt')]")WebElement searchbtn;
 	public void clickSearchfield() {
 		explecit_wait(searchfield);
 		log.info("wait for search field");
 		javascript_click(searchfield);
 		log.info("Clicked on search field");
+		searchfield.clear();
 	}
 		public void type_onSearchfield(String type) {
 			explecit_wait(searchfield);
 			log.info("wait for search field");
+			searchfield.clear();
 		searchfield.sendKeys(type);
 		log.info("type on search field");
 	}
@@ -29,10 +31,7 @@ public class HomePage extends Common_methods {
 		log.info("wait for search button");
 		javascript_click(searchbtn);
 		log.info("Clicked the search button");
-		Search_page Sp= new Search_page(driver);
-		Sp.click_subcategories();
-		test.info("clicked on subcategories");
-		test.addScreenCaptureFromPath(screenshotsforExtentRe("er_ss"));
+		
 		
 	}
 

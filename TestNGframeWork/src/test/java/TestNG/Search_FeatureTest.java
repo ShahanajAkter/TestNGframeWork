@@ -82,9 +82,16 @@ public void ValidateInput_withLeading_and_TrailingSpaces() throws InterruptedExc
 public void Validate_SearchInSubcategories_is_clickable() {
 	 test=reports.createTest("Validate_SearchInSubcategories_is_clickable").assignAuthor("Shanu").assignCategory("Smoke").assignDevice("windows 11","Chrome");
 	 HomePage hp= new HomePage(driver);
+	 try {
+		Thread.sleep(2000);
+	
 	 hp.clicksearchbtn();
 	 test.info("Search button is clicked");
 	 screenshotsforExtentRe("er_ss");
+	 } catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	 
 }
 @Test(priority = 5,threadPoolSize = 3,groups = "Regression")
