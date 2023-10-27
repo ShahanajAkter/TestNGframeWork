@@ -108,7 +108,9 @@
           <version>2.22.1</version>
         <configuration>
         <suiteXmlFiles>
-        <suiteXmlFile> Runtime/ExecuationProfile/searchTest.xml</suiteXmlFile>
+      
+       <!--  <suiteXmlFile> Runtime/ExecuationProfile/searchTest.xml</suiteXmlFile> -->
+        <suiteXmlFile>Pipeline/${xmlFiles}</suiteXmlFile>
         
        </suiteXmlFiles>        
         
