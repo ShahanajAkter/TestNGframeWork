@@ -32,7 +32,7 @@ public class Common_methods {
 	public String user_dir=System.getProperty("user.dir");
 	public Logger log= LogManager.getLogger(Common_methods.class);
 	public ExtentReports reports= new ExtentReports();
-	public ExtentSparkReporter repoter= new ExtentSparkReporter("Results/shanu_"+System.currentTimeMillis()+".html");
+	public ExtentSparkReporter repoter= new ExtentSparkReporter("Results/jenkins_extentReports"+System.currentTimeMillis() +".html");
 	public ExtentTest test;
 	public void ibrowser(String browsername, String url) {
 		
