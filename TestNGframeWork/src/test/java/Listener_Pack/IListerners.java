@@ -43,7 +43,7 @@ public class IListerners extends Common_methods implements ITestListener{
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		
-		this.driver=((Common_methods)result.getInstance()).driver;
+		
 	test=	reports.createTest(result.getName());
 	test.log(Status.PASS, MarkupHelper.createLabel("Name of the method that passed is: "+result.getName(), ExtentColor.LIME));	
 	screenshots("passed");
@@ -53,7 +53,7 @@ public class IListerners extends Common_methods implements ITestListener{
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		this.driver=((Common_methods)result.getInstance()).driver;
+		
 		test=	reports.createTest(result.getName());
 		test.log(Status.FAIL, MarkupHelper.createLabel("Name of the method that failed is: "+result.getName(), ExtentColor.RED));
 			log.info("test failed and screenshots taken");
