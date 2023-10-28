@@ -109,8 +109,8 @@
         <configuration>
         <suiteXmlFiles>
       
-       <!--  <suiteXmlFile> Runtime/ExecuationProfile/searchTest.xml</suiteXmlFile> -->
-        <suiteXmlFile>Pipeline/${xmlFiles}</suiteXmlFile>
+       <!--   <suiteXmlFile> Runtime/ExecuationProfile/searchTest.xml</suiteXmlFile>--> 
+       <suiteXmlFile>Pipeline/${xmlFiles}</suiteXmlFile>
         
        </suiteXmlFiles>        
         
