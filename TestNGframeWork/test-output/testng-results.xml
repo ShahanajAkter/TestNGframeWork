@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-28T12:16:48 EDT" name="Default suite" finished-at="2023-10-28T12:16:50 EDT" duration-ms="1422">
+  <suite started-at="2023-10-30T22:57:19 EDT" name="Default suite" finished-at="2023-10-30T22:57:21 EDT" duration-ms="2246">
     <groups>
     </groups>
-    <test started-at="2023-10-28T12:16:48 EDT" name="Default test" finished-at="2023-10-28T12:16:50 EDT" duration-ms="1422">
-      <class name="RestAssured.Resr_test">
-        <test-method signature="f()[pri:0, instance:RestAssured.Resr_test@7b36aa0c]" started-at="2023-10-28T12:16:48 EDT" name="f" finished-at="2023-10-28T12:16:50 EDT" duration-ms="1375" status="PASS">
+    <test started-at="2023-10-30T22:57:19 EDT" name="Default test" finished-at="2023-10-30T22:57:21 EDT" duration-ms="2246">
+      <class name="RestAssured.RestApiMethods_test">
+        <test-method signature="deleteApi()[pri:0, instance:RestAssured.RestApiMethods_test@18df8434]" started-at="2023-10-30T22:57:19 EDT" name="deleteApi" finished-at="2023-10-30T22:57:20 EDT" duration-ms="1472" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- RestAssured.Resr_test -->
+        </test-method> <!-- deleteApi -->
+        <test-method signature="getApi()[pri:0, instance:RestAssured.RestApiMethods_test@18df8434]" started-at="2023-10-30T22:57:20 EDT" name="getApi" finished-at="2023-10-30T22:57:21 EDT" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getApi -->
+        <test-method signature="patchApi()[pri:0, instance:RestAssured.RestApiMethods_test@18df8434]" started-at="2023-10-30T22:57:21 EDT" name="patchApi" finished-at="2023-10-30T22:57:21 EDT" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchApi -->
+        <test-method signature="postApi()[pri:0, instance:RestAssured.RestApiMethods_test@18df8434]" started-at="2023-10-30T22:57:21 EDT" name="postApi" finished-at="2023-10-30T22:57:21 EDT" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postApi -->
+      </class> <!-- RestAssured.RestApiMethods_test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

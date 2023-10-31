@@ -3,24 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.Search_FeatureTest">
+      <class name="RestAssured.RestApiMethods_test">
         <methods>
-          <include name="Validate_feature_returns_Accurate_Relevant_Results"/>
-          <include name="afterClass"/>
-          <include name="Validate_SearchInSubcategories_is_clickable"/>
-          <include name="beforeTest"/>
-          <include name="Assert_Sort_option"/>
-          <include name="beforeClass"/>
-          <include name="ValidateProducts_meeting_the_search_criteria_IsPresent"/>
-          <include name="Validate_Search_button_functional"/>
-          <include name="Validate_Search_without_SearchInProductDescriptions"/>
-          <include name="afterTest"/>
-          <include name="Validate_Pagination"/>
-          <include name="ValidateSearch_with_SearchInProductDescriptions"/>
-          <include name="Assert_Empty_search_query"/>
-          <include name="ValidateInput_withLeading_and_TrailingSpaces"/>
+          <include name="patchApi"/>
         </methods>
-      </class> <!-- TestNG.Search_FeatureTest -->
+      </class> <!-- RestAssured.RestApiMethods_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
